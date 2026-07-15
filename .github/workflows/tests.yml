@@ -39,4 +39,4 @@ jobs:
         uses: nanasess/setup-chromedriver@v2
 
       - name: Run tests
-        run: uv run pytest test_pink_morsel_visualizer.py -v --headless --webdriver Chrome
+        run:  ./run_tests.sh
