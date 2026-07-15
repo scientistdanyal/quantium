@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dash>=4.4.0",
+    "dash[testing]>=4.4.0",
     "numpy>=2.5.1",
     "pandas>=3.0.3",
 ]
